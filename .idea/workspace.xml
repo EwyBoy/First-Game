@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/First-Game.iml" line="2" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c95985-e654-40ad-b54d-53fb0b54d705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/display/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/SpriteSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/input/KeyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/GrassTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/RockTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/SandTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/WaterTile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First-Game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/First-Game.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/GameLauncher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/handlers/InputHandler$Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/handlers/InputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/handlers/WindowHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/gfx/ImageLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/gfx/ImageLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/input/MouseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-Game/com/ewyboy/jgame/input/MouseHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/GameLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/InputHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/WindowHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,34 +29,37 @@
     <session id="1761666281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6059" />
+          <entry key="java" value="7886" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6059" />
+          <entry key="JAVA" value="7886" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="35" />
+          <entry key="java" value="61" />
+          <entry key="png" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="35" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -76,51 +73,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/KeyHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1613#1614#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2076#2077#0" expanded="true" />
-                <element signature="e#2139#2140#0" expanded="true" />
-                <element signature="e#3170#3171#0" expanded="true" />
-                <element signature="e#3199#3200#0" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-                <element signature="e#3256#3257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/registry/Registry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/loader/TileLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-106">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,49 +127,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/RockTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="method#mouseEntered#0;class#MouseHandler#0" />
-                <element signature="method#mouseExited#0;class#MouseHandler#0" />
-                <element signature="method#mouseDragged#0;class#MouseHandler#0" />
-                <element signature="method#mouseWheelMoved#0;class#MouseHandler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/display/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="224">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/SpriteSheet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/WaterTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,10 +208,24 @@
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/input/KeyHandler.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/SpriteSheet.java" />
-        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/display/Display.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/GrassTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/RockTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/SandTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/WaterTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/registry/TileRegistry.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/Tile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/RockTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/WaterTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/SandTile.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/Assets.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/loader/TileLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/registry/Registry.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/Animation.java" />
+        <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/GrassTile.java" />
         <option value="$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java" />
       </list>
     </option>
@@ -238,9 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +258,17 @@
             <path>
               <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="First-Game" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First-Game" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sprite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First-Game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,13 +276,6 @@
               <item name="First-Game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jgame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First-Game" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jgame" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
@@ -278,30 +289,52 @@
               <item name="First-Game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jgame" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First-Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jgame" type="462c0819:PsiDirectoryNode" />
+              <item name="tiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First-Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jgame" type="462c0819:PsiDirectoryNode" />
+              <item name="tiles" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First-Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541949313309" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TileGame" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542048063842" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="power.mode.ii" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ewyboy.jgame" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eivind\Documents\Development\JavaGame\First-Game\src\com\ewyboy\jgame\handlers" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ewyboy.jgame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,18 +376,19 @@
       <option name="presentableId" value="Default" />
       <updated>1541846278773</updated>
       <workItem from="1541846285374" duration="7925000" />
-      <workItem from="1541921229880" duration="14595000" />
+      <workItem from="1541921229880" duration="15088000" />
+      <workItem from="1542037141384" duration="10513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22520000" />
+    <option name="totallyTimeSpent" value="33526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124068156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14110756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06805708" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2129528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,34 +430,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/GameLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#95#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/InputHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/WindowHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/GameLauncher.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/InputHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/handlers/WindowHandler.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46">
@@ -466,19 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/SpriteSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-490">
@@ -487,65 +483,6 @@
             <element signature="e#4952#4953#0" expanded="true" />
             <element signature="e#5006#5007#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="method#mouseEntered#0;class#MouseHandler#0" />
-            <element signature="method#mouseExited#0;class#MouseHandler#0" />
-            <element signature="method#mouseDragged#0;class#MouseHandler#0" />
-            <element signature="method#mouseWheelMoved#0;class#MouseHandler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/display/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/KeyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -567,18 +504,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/MouseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+        <state>
+          <folding>
+            <element signature="method#mouseEntered#0;class#MouseHandler#0" />
+            <element signature="method#mouseExited#0;class#MouseHandler#0" />
+            <element signature="method#mouseDragged#0;class#MouseHandler#0" />
+            <element signature="method#mouseWheelMoved#0;class#MouseHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/SpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/display/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#2139#2140#0" expanded="true" />
-            <element signature="e#3170#3171#0" expanded="true" />
-            <element signature="e#3199#3200#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1261" column="23" selection-start-line="1261" selection-start-column="23" selection-end-line="1261" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="964" column="27" lean-forward="true" selection-start-line="964" selection-start-column="27" selection-end-line="964" selection-end-column="27" />
+          <folding>
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/input/KeyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="1387" column="65" lean-forward="true" selection-start-line="1387" selection-start-column="65" selection-end-line="1387" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="2265" column="9" lean-forward="true" selection-start-line="2265" selection-start-column="9" selection-end-line="2265" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/SandTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sprite/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/gfx/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/GrassTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/WaterTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/env/RockTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/loader/TileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/registry/Registry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/tiles/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ewyboy/jgame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

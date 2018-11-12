@@ -25,9 +25,7 @@ public class MouseHandler implements MouseListener, MouseMotionListener, MouseWh
         return mousePosY;
     }
 
-    public void tick() {
-
-    }
+    public void tick() {}
 
     public void mouseButtonAction(MouseEvent event, boolean isPressed) {
         switch (event.getButton()) {

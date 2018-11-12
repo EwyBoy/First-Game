@@ -1,8 +1,11 @@
 package com.ewyboy.jgame;
 
 import com.ewyboy.jgame.display.Display;
+import com.ewyboy.jgame.gfx.Assets;
 import com.ewyboy.jgame.input.KeyHandler;
 import com.ewyboy.jgame.input.MouseHandler;
+import com.ewyboy.jgame.loader.TileLoader;
+import com.ewyboy.jgame.registry.Registry;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -40,6 +43,8 @@ public class Game implements Runnable {
         display.getFrame().addMouseListener(mouseHandler);
         display.getFrame().addMouseMotionListener(mouseHandler);
         display.getFrame().addMouseWheelListener(mouseHandler);
+        Assets.init();
+        TileLoader.init(Registry.Tiles.class);
     }
 
     /** Main Game loop **/
@@ -109,7 +114,6 @@ public class Game implements Runnable {
     }
 
     private void tick() {
-        //System.out.println("tick()");
         keyHandler.tick();
         mouseHandler.tick();
     }
@@ -127,6 +131,7 @@ public class Game implements Runnable {
 
     public synchronized void stop() {
         System.out.println("stop()");
+
         if (!isRunning) {
             return;
         }
