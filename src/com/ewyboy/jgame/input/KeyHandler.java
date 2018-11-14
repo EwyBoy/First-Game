@@ -5,8 +5,9 @@ import java.awt.event.KeyListener;
 
 public class KeyHandler implements KeyListener {
 
-    public boolean [] keys, justPressed, cantPress;
+    private boolean[] keys, justPressed, cantPress;
     public boolean up, down, left, right;
+    public boolean aUp, aDown, aLeft, aRight;
 
     public KeyHandler() {
         keys = new boolean[256];
@@ -14,15 +15,15 @@ public class KeyHandler implements KeyListener {
         cantPress = new boolean[keys.length];
     }
 
-    public void tick() {
-        for (int i = 0; i < keys.length; i++) {
-            if (cantPress[i] && !keys[i]) {
+    public void tick(){
+        for(int i = 0; i < keys.length; i++){
+            if(cantPress[i] && !keys[i]) {
                 cantPress[i] = false;
-            } else if (justPressed[i]) {
+            } else if(justPressed[i]) {
                 cantPress[i] = true;
                 justPressed[i] = false;
             }
-            if (!cantPress[i] && keys[i]) {
+            if(!cantPress[i] && keys[i]) {
                 justPressed[i] = true;
             }
         }
@@ -31,34 +32,35 @@ public class KeyHandler implements KeyListener {
         down = keys[KeyEvent.VK_S];
         left = keys[KeyEvent.VK_A];
         right = keys[KeyEvent.VK_D];
+
+        aUp = keys[KeyEvent.VK_UP];
+        aDown = keys[KeyEvent.VK_DOWN];
+        aLeft = keys[KeyEvent.VK_LEFT];
+        aRight = keys[KeyEvent.VK_RIGHT];
     }
 
     public boolean keyJustPressed(int keyCode) {
-        if (keyCode < 0 || keyCode >= keys.length) {
+        if(keyCode < 0 || keyCode >= keys.length)
             return false;
-        }
         return justPressed[keyCode];
     }
 
     @Override
-    public void keyPressed(KeyEvent event) {
-        if (event.getKeyCode() < 0 || event.getKeyCode() >= keys.length) {
+    public void keyPressed(KeyEvent e) {
+        if(e.getKeyCode() < 0 || e.getKeyCode() >= keys.length)
             return;
-        }
-        keys[event.getKeyCode()] = true;
+        keys[e.getKeyCode()] = true;
     }
 
     @Override
-    public void keyReleased(KeyEvent event) {
-        if (event.getKeyCode() < 0 || event.getKeyCode() >= keys.length) {
+    public void keyReleased(KeyEvent e) {
+        if(e.getKeyCode() < 0 || e.getKeyCode() >= keys.length)
             return;
-        }
-        keys[event.getKeyCode()] = true;
+        keys[e.getKeyCode()] = false;
     }
 
     @Override
-    public void keyTyped(KeyEvent event) {
-       System.out.println(event.getKeyChar());
-    }
+    public void keyTyped(KeyEvent e) {
 
+    }
 }

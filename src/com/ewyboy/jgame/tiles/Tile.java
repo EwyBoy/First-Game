@@ -7,15 +7,15 @@ public class Tile {
 
     public static Tile[] tiles = new Tile[256];
 
-    public static final int TILE_WIDTH = 16, TILE_HEIGHT = 16;
+    public static final int TILE_WIDTH = 64, TILE_HEIGHT = 64;
 
     protected BufferedImage texture;
-
-    protected int id;
+    protected final int id;
     protected String name;
 
-    public Tile(BufferedImage texture) {
+    public Tile(BufferedImage texture, int id) {
         this.texture = texture;
+        this.id = id;
         tiles[id] = this;
     }
 
@@ -31,10 +31,6 @@ public class Tile {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {

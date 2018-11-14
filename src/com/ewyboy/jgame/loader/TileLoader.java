@@ -24,7 +24,6 @@ public class TileLoader {
                     String name = "tile" + field.getName().toLowerCase();
                     int ID = getTileID();
                     tile.setName(name);
-                    tile.setId(ID);
                     TILES.put(name, tile);
                     System.out.println("[Tile] " + name + " has been registered with the ID: " + ID);
                 }

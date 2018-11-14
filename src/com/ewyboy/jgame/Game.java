@@ -1,11 +1,14 @@
 package com.ewyboy.jgame;
 
 import com.ewyboy.jgame.display.Display;
-import com.ewyboy.jgame.gfx.Assets;
+import com.ewyboy.jgame.gfx.AssetsLoader;
+import com.ewyboy.jgame.gfx.Camera;
 import com.ewyboy.jgame.input.KeyHandler;
 import com.ewyboy.jgame.input.MouseHandler;
 import com.ewyboy.jgame.loader.TileLoader;
 import com.ewyboy.jgame.registry.Registry;
+import com.ewyboy.jgame.states.GameState;
+import com.ewyboy.jgame.states.State;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -18,14 +21,19 @@ public class Game implements Runnable {
     public boolean isRunning = false;
 
     private BufferStrategy bs;
+    private Graphics graphics;
 
     //Input
     private KeyHandler keyHandler;
     private MouseHandler mouseHandler;
 
+    private Camera camera;
+    private Handler handler;
+    private GameState gameState;
+
     private int height, width;
     public String name;
-    private Graphics graphics;
+
 
     public Game(String name, int width, int height) {
         this.name = name;
@@ -43,8 +51,12 @@ public class Game implements Runnable {
         display.getFrame().addMouseListener(mouseHandler);
         display.getFrame().addMouseMotionListener(mouseHandler);
         display.getFrame().addMouseWheelListener(mouseHandler);
-        Assets.init();
+        AssetsLoader.init();
         TileLoader.init(Registry.Tiles.class);
+        handler = new Handler(this);
+        camera = new Camera(handler, 0,0);
+        gameState = new GameState(handler);
+        State.setState(gameState);
     }
 
     /** Main Game loop **/
@@ -87,7 +99,6 @@ public class Game implements Runnable {
     }
 
     public static Random random = new Random();
-
     public static float getRandomFloatInRange(float min, float max) {
         return (random.nextFloat() * (max - min)) + min;
     }
@@ -102,12 +113,14 @@ public class Game implements Runnable {
         graphics = bs.getDrawGraphics();
         graphics.clearRect(0,0, width, height);
 
-        for (int x = 0; x < width; x += 35) {
+      /*  for (int x = 0; x < width; x += 35) {
             for (int y = 0; y < height; y += 35) {
                 graphics.setColor(Color.getHSBColor(getRandomFloatInRange(0, 1), getRandomFloatInRange(0, 1), getRandomFloatInRange(0, 1)));
                 graphics.fill3DRect(x, y, 30, 30, true);
             }
-        }
+        }*/
+
+        if (State.getState() != null) State.getState().render(graphics);
 
         bs.show();
         graphics.dispose();
@@ -116,6 +129,8 @@ public class Game implements Runnable {
     private void tick() {
         keyHandler.tick();
         mouseHandler.tick();
+
+        if (State.getState() != null) State.getState().tick();
     }
 
 
@@ -145,6 +160,17 @@ public class Game implements Runnable {
         }
     }
 
+    public Camera getCamera() {
+        return camera;
+    }
+
+    public KeyHandler getKeyHandler() {
+        return keyHandler;
+    }
+
+    public MouseHandler getMouseHandler() {
+        return mouseHandler;
+    }
 
     public int getHeight() {
         return height;

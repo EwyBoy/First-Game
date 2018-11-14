@@ -32,11 +32,14 @@ public class Display {
         frame.pack();
     }
 
-
     private void createDisplayFrame() {
         frame = new JFrame(name);
-        frame.setSize(new Dimension(width, height));
+        frame.setSize(JOptionPane.showConfirmDialog(this.getCanvas(), "Big?") == 0 ? new Dimension(width, height) : new Dimension(720, 540));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        if (JOptionPane.showConfirmDialog(this.getCanvas(), "Fullscreen?") == 0) {
+            frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+            frame.setUndecorated(true);
+        }
         frame.setResizable(true);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);

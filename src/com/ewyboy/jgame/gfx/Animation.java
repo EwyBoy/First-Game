@@ -9,7 +9,6 @@ public class Animation {
 
     private BufferedImage[] frames;
 
-
     public Animation(int speed, BufferedImage[] frames) {
         this.speed = speed;
         this.frames = frames;
