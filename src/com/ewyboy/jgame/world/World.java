@@ -65,8 +65,9 @@ public class World {
     }
 
     public Tile getTile(int x, int y) {
-        if(x < 0 || y < 0 || x >= width || y >= height)
+        if(x < 0 || y < 0 || x >= width || y >= height) {
             return Registry.Tiles.GRASS;
+        }
 
         Tile tile = Tile.tiles[tiles[x][y]];
 

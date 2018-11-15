@@ -6,8 +6,7 @@ import java.awt.event.KeyListener;
 public class KeyHandler implements KeyListener {
 
     private boolean[] keys, justPressed, cantPress;
-    public boolean up, down, left, right;
-    public boolean aUp, aDown, aLeft, aRight;
+    public boolean up, down, left, right, sprint;
 
     public KeyHandler() {
         keys = new boolean[256];
@@ -32,11 +31,7 @@ public class KeyHandler implements KeyListener {
         down = keys[KeyEvent.VK_S];
         left = keys[KeyEvent.VK_A];
         right = keys[KeyEvent.VK_D];
-
-        aUp = keys[KeyEvent.VK_UP];
-        aDown = keys[KeyEvent.VK_DOWN];
-        aLeft = keys[KeyEvent.VK_LEFT];
-        aRight = keys[KeyEvent.VK_RIGHT];
+        sprint = keys[KeyEvent.VK_SHIFT];
     }
 
     public boolean keyJustPressed(int keyCode) {

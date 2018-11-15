@@ -47,7 +47,7 @@ public abstract class EntityLiving extends Entity {
     }
 
     public void moveX() {
-        if(moveX > 0){
+        if(moveX > 0) {
             int tileX = (int) (x + moveX + bounds.x + bounds.width) / Tile.TILE_WIDTH;
             if(!collisionWithTile(tileX, (int) (y + bounds.y) / Tile.TILE_HEIGHT) &&
                     !collisionWithTile(tileX, (int) (y + bounds.y + bounds.height) / Tile.TILE_HEIGHT)) {

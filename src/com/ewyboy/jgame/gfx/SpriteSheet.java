@@ -18,4 +18,8 @@ public class SpriteSheet {
         return sheet.getSubimage((16 * x) - 16, (16 * y) - 16, 16, 16);
     }
 
+    public BufferedImage getSpriteTop(int x, int y) {
+        return sheet.getSubimage((16 * x) - 16, (16 * y) - 16, 16, 8);
+    }
+
 }

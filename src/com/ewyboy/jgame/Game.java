@@ -113,13 +113,6 @@ public class Game implements Runnable {
         graphics = bs.getDrawGraphics();
         graphics.clearRect(0,0, width, height);
 
-      /*  for (int x = 0; x < width; x += 35) {
-            for (int y = 0; y < height; y += 35) {
-                graphics.setColor(Color.getHSBColor(getRandomFloatInRange(0, 1), getRandomFloatInRange(0, 1), getRandomFloatInRange(0, 1)));
-                graphics.fill3DRect(x, y, 30, 30, true);
-            }
-        }*/
-
         if (State.getState() != null) State.getState().render(graphics);
 
         bs.show();
